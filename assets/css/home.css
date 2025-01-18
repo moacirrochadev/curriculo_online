@@ -1,0 +1,14 @@
+.container {
+    width: 90%;
+    max-width: 2024px;
+    min-height: 100%;
+    margin: auto;
+}
+
+.container .h-habilidades .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
