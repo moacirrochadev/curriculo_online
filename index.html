@@ -33,6 +33,24 @@
         },
       };
     </script>
+    <!-- Chatbot Quiro -->
+     <script defer>
+      (() => {
+        window.onload = () => {
+          new BlipChat()
+            .withAppKey(
+              "Ym90bWluaTo4M2IxZTJiMC1lMWFlLTRiNWItYjdkZS04MDBhMzQ5MTM2NGM="
+            )
+            .withButton({ color: "#3f3f3f", icon: "" })
+            .withCustomCommonUrl("https://moacir-rocha-h0ptf.chat.blip.ai/")
+            .build();
+        };
+      })();
+    </script>
+    <script
+      src="https://unpkg.com/blip-chat-widget"
+      type="text/javascript"
+    ></script>
   </head>
   <body class="w-full lg:max-w-[1080px] h-full m-auto bg-zinc-900 text-zinc-50">
     <!-- HEADER -->
