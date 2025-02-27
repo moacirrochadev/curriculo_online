@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "fontawesome-free": "^1.0.4"
-  }
+  },
+  "name": "curriculo_online",
+  "version": "1.0.0",
+  "description": "Este é um projeto de currículo online desenvolvido com HTML, Tailwind CSS e Font Awesome. O objetivo deste projeto é criar uma página de currículo moderna e responsiva.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moacirrochadev/curriculo_online.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moacirrochadev/curriculo_online/issues"
+  },
+  "homepage": "https://github.com/moacirrochadev/curriculo_online#readme"
 }
